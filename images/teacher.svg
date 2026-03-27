@@ -1,0 +1,52 @@
+<svg width="400" height="500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a8edea" />
+      <stop offset="100%" stop-color="#fed6e3" />
+    </linearGradient>
+    <linearGradient id="hairGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5d4037" />
+      <stop offset="100%" stop-color="#3e2723" />
+    </linearGradient>
+    <linearGradient id="suitGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#455a64" />
+      <stop offset="100%" stop-color="#263238" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bgGradient)" />
+  
+  <!-- 老师头像 -->
+  <g transform="translate(200, 200)">
+    <!-- 头部 -->
+    <circle cx="0" cy="-50" r="80" fill="#ffccbc" />
+    
+    <!-- 头发 -->
+    <path d="M-60,-100 C-80,-120 -100,-80 -80,-60 C-100,-40 -80,-20 -60,-30 C-70,-10 -40,0 -20,-10 C0,-20 20,-10 40,-30 C60,-50 80,-30 60,-10 C70,10 40,30 20,10 C0,-10 -20,0 -40,-10 C-60,-20 -70,-80 -60,-100 Z" fill="url(#hairGradient)" />
+    
+    <!-- 眼睛 -->
+    <ellipse cx="-30" cy="-40" rx="10" ry="15" fill="white" />
+    <ellipse cx="30" cy="-40" rx="10" ry="15" fill="white" />
+    <circle cx="-30" cy="-40" r="5" fill="#455a64" />
+    <circle cx="30" cy="-40" r="5" fill="#455a64" />
+    <circle cx="-32" cy="-42" r="2" fill="white" />
+    <circle cx="28" cy="-42" r="2" fill="white" />
+    
+    <!-- 嘴巴 -->
+    <path d="M-20,-10 Q0,10 20,-10" stroke="#e57373" stroke-width="3" fill="none" />
+    
+    <!-- 鼻子 -->
+    <path d="M0,-30 Q5,-15 10,-30" stroke="#ffccbc" stroke-width="2" fill="none" />
+    
+    <!-- 身体 -->
+    <path d="M-60,30 L-60,200 Q0,250 60,200 L60,30 Z" fill="url(#suitGradient)" />
+    
+    <!-- 衬衫 -->
+    <rect x="-40" y="30" width="80" height="60" fill="white" />
+    <path d="M0,30 L0,90" stroke="#455a64" stroke-width="2" />
+    
+    <!-- 领带 -->
+    <path d="M0,50 L-15,90 M0,50 L15,90 L0,120 Z" fill="#e53935" />
+  </g>
+  
+  <text x="200" y="450" text-anchor="middle" fill="#455a64" font-size="24" font-family="Arial" font-weight="bold">指导老师</text>
+</svg>

@@ -1,0 +1,56 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a8edea" />
+      <stop offset="100%" stop-color="#fed6e3" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bgGradient)" />
+  
+  <!-- 志愿者活动场景 -->
+  <g transform="translate(200, 150)">
+    <!-- 背景元素 -->
+    <rect x="-150" y="50" width="300" height="50" fill="rgba(255,255,255,0.1)" />
+    
+    <!-- 志愿者1 -->
+    <g transform="translate(-80, 30)">
+      <circle cx="0" cy="-30" r="15" fill="#ffccbc" />
+      <path d="M-10,0 L-10,40 M10,0 L10,40 M-15,10 L15,10" stroke="rgba(255,255,255,0.8)" stroke-width="3" fill="none" />
+      <path d="M-15,-15 L15,-15 L15,5 L-15,5 Z" fill="#e53935" />
+      <text x="0" y="-5" text-anchor="middle" fill="white" font-size="8" font-weight="bold">V</text>
+    </g>
+    
+    <!-- 志愿者2 -->
+    <g transform="translate(0, 25)">
+      <circle cx="0" cy="-30" r="15" fill="#ffe0b2" />
+      <path d="M-10,0 L-10,40 M10,0 L10,40 M-15,10 L15,10" stroke="rgba(255,255,255,0.8)" stroke-width="3" fill="none" />
+      <path d="M-15,-15 L15,-15 L15,5 L-15,5 Z" fill="#e53935" />
+      <text x="0" y="-5" text-anchor="middle" fill="white" font-size="8" font-weight="bold">V</text>
+    </g>
+    
+    <!-- 志愿者3 -->
+    <g transform="translate(80, 30)">
+      <circle cx="0" cy="-30" r="15" fill="#b3e5fc" />
+      <path d="M-10,0 L-10,40 M10,0 L10,40 M-15,10 L15,10" stroke="rgba(255,255,255,0.8)" stroke-width="3" fill="none" />
+      <path d="M-15,-15 L15,-15 L15,5 L-15,5 Z" fill="#e53935" />
+      <text x="0" y="-5" text-anchor="middle" fill="white" font-size="8" font-weight="bold">V</text>
+    </g>
+    
+    <!-- 帮助对象 -->
+    <g transform="translate(-30, 60)">
+      <circle cx="0" cy="-20" r="12" fill="#ffecb3" />
+      <path d="M-8,0 L-8,20 M8,0 L8,20 M-12,5 L12,5" stroke="rgba(255,255,255,0.8)" stroke-width="2" fill="none" />
+    </g>
+    
+    <!-- 爱心符号 -->
+    <path d="M40,-20 C30,-30 10,-30 10,-20 C10,-10 20,-5 20,5 C20,-5 30,-10 40,-20 Z" fill="#e53935" transform="scale(0.5)">
+      <animate attributeName="transform" values="scale(0.5);scale(0.6);scale(0.5)" dur="2s" repeatCount="indefinite" />
+    </path>
+    
+    <path d="M60,-10 C50,-20 30,-20 30,-10 C30,0 40,5 40,15 C40,5 50,0 60,-10 Z" fill="#e53935" transform="scale(0.4)">
+      <animate attributeName="transform" values="scale(0.4);scale(0.5);scale(0.4)" dur="1.5s" repeatCount="indefinite" />
+    </path>
+  </g>
+  
+  <text x="200" y="280" text-anchor="middle" fill="white" font-size="16" font-family="Arial" font-weight="bold">志愿活动</text>
+</svg>
